@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script type="text/javascript" src="dist/logplease.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        var logger = Logger.create('logger name');
+        logger.debug(`This is a debug message`);
+        logger.log(`This is a log message`); // alias for debug()
+        logger.info(`This is a info message`);
+        logger.warn(`This is a warning`);
+        logger.error(`This is an error`);
+    </script>
+
+
+</body>
+
+</html>
