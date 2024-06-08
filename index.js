@@ -9,10 +9,10 @@ const options = {
     filename: null,      // Set file path to log to a file
     appendFile: true,    // Append logfile instead of overwriting
 };
-const logger = Logger.create("patata", options);
-logger.debug(`This is a debug message`);
-logger.log(`This is a log message`); // alias for debug()
-logger.info(`This is a info message`);
-logger.warn(`This is a warning`);
-logger.error(`This is an error`);
+const logger = Logger.create("adoptajunior", options);
+logger.log(`Empezando a usar Node.js :)`); // alias for debug()
+logger.debug(`Hola Mundo de Node`);
+logger.info(`Noticias de última hora, Node.js me encanta!!`);
+logger.warn(`Tirando warnings como campeones`);
+logger.error(`Algo no está bien!!!`);
 
